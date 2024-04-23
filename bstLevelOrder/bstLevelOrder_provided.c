@@ -1,15 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-// A program to perform a LEVEL ORDER (BREADTH-FIRST) TRAVERSAL of a binary search tree
-
-// BINARY SEARCH TREE
 
 typedef struct BSTNode BSTNode;
 struct BSTNode {
     int key;
-    struct BSTNode* l_child; // nodes with smaller key will be in left subtree
-    struct BSTNode* r_child; // nodes with larger key will be in right subtree
+    struct BSTNode* l_child; 
+    struct BSTNode* r_child; 
 };
 
 // Add new data to the BST using recursion
